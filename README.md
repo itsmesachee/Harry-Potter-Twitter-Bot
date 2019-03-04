@@ -1,2 +1,2 @@
 # twitter-bot
-A bot that retweets, reply, favorite, follow and post status updates 
+A bot that retweet, reply, favorite, follow and also post status updates from a textfile
