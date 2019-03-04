@@ -1,0 +1,6 @@
+# Removed keys for security reasons 
+
+CONSUMER_KEY = 'AAAAAA' 
+CONSUMER_SECRET = 'BBBBBB'
+ACCESS_TOKEN = 'CCCCCC'
+ACCESS_TOKEN_SECRET = 'DDDDDD'
