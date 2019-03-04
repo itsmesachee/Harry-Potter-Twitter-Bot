@@ -37,7 +37,7 @@ def reply_to_tweets():
     mentions = api.mentions_timeline(last_seen_id, tweet_mode='extended')
     for mention in reversed(mentions):
         print(str(mention.id) + ' - ' + mention.full_text)
-        last_seen_id = mention.id
+        last_seen_id = mention.id 
         store_last_seen_id(last_seen_id, FILE_NAME)
         if '#HarryPotter' in mention.full_text.lower():
             print('Love this!')
