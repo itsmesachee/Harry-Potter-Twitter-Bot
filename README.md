@@ -7,7 +7,7 @@
 **Technologies Used:**
 
 - Language: Python
-- Library: Tweeby
+- Library: Tweepy
 - Other: Google Geocoding API 
 
 **Twitter Bot Account:** [@tweetbabybot](https://twitter.com/tweetbabybot)
