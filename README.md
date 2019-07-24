@@ -4,8 +4,6 @@
 
 **Details:** A bot that retweet, reply, favorite, follow and also post status updates from a textfile 
 
-**Other:** The code is commented to help those who are new to coding understand what the code does
-
 **Technologies Used:**
 
 - Language: Python
