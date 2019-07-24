@@ -1,15 +1,7 @@
-"""
-The bot REPLY to users who mentions the key hashtag #HarryPotter and store the last id in a textfile
-"""
-
-# Import our Twitter credentials from credentials.py 
 from credentials import * 
-# Import tweepy library to interact wihth the Twitter API
 import tweepy 
-# Import sleep function from time module to automate tweet status submissions 
 from time import sleep 
 
-# Access and authorize our Twitter credentials from credentials.py
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
